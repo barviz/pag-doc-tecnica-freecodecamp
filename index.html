@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp proyecto página de documentación técnica" />
+    <title>Página de Documentación Técnica</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Documentación Java</header>
+        <ul>
+            <li><a class="nav-link" href="#java.lang_class_Boolean">java.lang class Boolean</a></li>
+            <li>
+                <a class="nav-link" href="#java.lang_class_Double">java.lang class Double</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#java.lang_class_Float">java.lang class Float</a>
+            </li>
+            <li><a class="nav-link" href="#java.lang_class_Integer">java.lang class Integer</a></li>
+            <li><a class="nav-link" href="#java.lang_class_String">java.lang class String</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="java.lang_class_Boolean">
+            <header>java.lang class Boolean</header>
+            <article> <br>
+                <code>
+            public final class Boolean
+extends Object
+implements Serializable, Comparable<Boolean>
+          </code>
+
+                <p>
+                    The Boolean class wraps a value of the primitive type boolean in an object. An object of type
+                    Boolean contains a single field whose type is boolean.
+
+                </p>
+
+                <p>
+                    In addition, this class provides many methods for converting a boolean to a String and a String to a
+                    boolean, as well as other constants and methods useful when dealing with a boolean.
+                </p>
+
+            </article>
+        </section>
+        <section class="main-section" id="java.lang_class_Double">
+            <header>java.lang class Double</header>
+            <article> <br>
+                <code>public final class Double
+extends Number
+implements Comparable<Double>
+          </code>
+
+                <p>The Double class wraps a value of the primitive type double in an object. An object of type Double
+                    contains a single field whose type is double.</p>
+                <p>In addition, this class provides several methods for converting a double to a String and a String to
+                    a double, as well as other constants and methods useful when dealing with a double.</p>
+            </article>
+        </section>
+        <section class="main-section" id="java.lang_class_Float">
+            <header>java.lang class Float</header>
+            <article> <br>
+                <code>
+            public final class Float
+extends Number
+implements Comparable<Float>
+          </code>
+
+                <p>The Float class wraps a value of primitive type float in an object. An object of type Float contains
+                    a single field whose type is float.</p>
+                <p>In addition, this class provides several methods for converting a float to a String and a String to a
+                    float, as well as other constants and methods useful when dealing with a float.</p>
+            </article>
+        </section>
+        <section class="main-section" id="java.lang_class_Integer">
+            <header>java.lang class Integer</header>
+            <article> <br>
+                <code>
+            public final class Integer
+extends Number
+implements Comparable<Integer>
+          </code>
+                <p>The Integer class wraps a value of the primitive type int in an object. An object of type Integer
+                    contains a single field whose type is int.</p>
+                <p>In addition, this class provides several methods for converting an int to a String and a String to an
+                    int, as well as other constants and methods useful when dealing with an int.</p>
+                <p>Implementation note: The implementations of the "bit twiddling" methods (such as highestOneBit and
+                    numberOfTrailingZeros) are based on material from Henry S. Warren, Jr.'s Hacker's Delight, (Addison
+                    Wesley, 2002).</p>
+            </article>
+        </section>
+        <section class="main-section" id="java.lang_class_String">
+            <header>java.lang class String</header>
+            <article> <br>
+                <code>
+            public final class String
+extends Object
+implements Serializable, Comparable<String>, CharSequence
+          </code>
+
+                <p>The String class represents character strings. All string literals in Java programs, such as "abc",
+                    are implemented as instances of this class.</p>
+                <p>Strings are constant; their values cannot be changed after they are created. String buffers support
+                    mutable strings. Because String objects are immutable they can be shared.</p>
+
+                <p>The class String includes methods for examining individual characters of the sequence, for comparing
+                    strings, for searching strings, for extracting substrings, and for creating a copy of a string with
+                    all characters translated to uppercase or to lowercase. Case mapping is based on the Unicode
+                    Standard version specified by the Character class.</p>
+
+                <ul>
+                    <li>
+                        The class String includes methods for examining individual characters of the sequence, for
+                        comparing strings, for searching strings, for extracting substrings, and for creating a copy of
+                        a string with all characters translated to uppercase or to lowercase. Case mapping is based on
+                        the Unicode Standard version specified by the Character class.
+                    </li>
+                    <li>The Java language provides special support for the string concatenation operator ( + ), and for
+                        conversion of other objects to strings. String concatenation is implemented through the
+                        StringBuilder(or StringBuffer) class and its append method. String conversions are implemented
+                        through the method toString, defined by Object and inherited by all classes in Java. For
+                        additional information on string concatenation and conversion, see Gosling, Joy, and Steele, The
+                        Java Language Specification.</li>
+                    <li>
+                        Unless otherwise noted, passing a null argument to a constructor or method in this class will
+                        cause a NullPointerException to be thrown.
+                    </li>
+                    <li>A String represents a string in the UTF-16 format in which supplementary characters are
+                        represented by surrogate pairs (see the section Unicode Character Representations in the
+                        Character class for more information). Index values refer to char code units, so a supplementary
+                        character uses two positions in a String.</li>
+                    <li>
+                        The String class provides methods for dealing with Unicode code points (i.e., characters), in
+                        addition to those for dealing with Unicode code units (i.e., char values).
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+</body>
+
+</html>
